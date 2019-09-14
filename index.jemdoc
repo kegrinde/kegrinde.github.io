@@ -4,15 +4,15 @@
 ~~~
 {}{img_left}{kgrinde_headshot.jpg}{300px}{300px}
 
-I am currently a Postdoctoral Teaching Fellow in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at [https://www.macalester.edu/ Macalester College].
+I am currently a Postdoctoral Teaching Fellow in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at [https://www.macalester.edu/ Macalester College]. 
 
-My research interests fall broadly into the realm of statistical genetics, with the end goal of analyzing large genetic datasets to answer questions about human disease and population history. Most recently, my work has focused on developing statistical methods for genetic studies in /admixed populations/---populations such as African Americans and Hispanics/Latinos with mixed, diverse ancestry. 
+My teaching experience and interests center mostly around introductory statistics, regression, and statistical theory. In all of my courses, I emphasize statistical literacy, real data applications, and modern computing. Statistics is an inherently collaborative, interdisciplinary field, and I love how this is reflected in the makeup of student backgrounds and interests in undergraduate statistics courses.
 
-My most recent first-author paper proposes methods for estimating genome-wide significance thresholds that control family-wise error rate in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics] and the corresponding R package on [https://github.com/kegrinde/STEAM GitHub] to learn more. 
+My research is in the field of statistical genetics, with the end goal of analyzing large genetic datasets to answer questions about human disease and population history. Most recently, my work has focused on developing statistical methods for genetic studies in /admixed populations/---populations such as African Americans and Hispanics/Latinos with mixed, diverse ancestry. My most recent first-author paper proposes methods for estimating genome-wide significance thresholds that control family-wise error rate in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics] and the corresponding R package on [https://github.com/kegrinde/STEAM GitHub] to learn more. 
 
-To get in touch with me, I can best be reached via email (kgrinde at macalester dot edu). I am always happy to talk about research, teaching, or (for prospective students) careers in (bio)statistics!
+To get in touch with me, send me an email (kgrinde at macalester dot edu). I am always happy to talk about research, teaching, and (for students) graduate programs and careers in (bio)statistics!
 
-For a PDF version of my CV, click [kgrinde_CV.pdf here].
+For a PDF version of my CV, click [kgrinde_CV.pdf here]. Some highlights are listed below.
 ~~~
 
 == Research Interests
@@ -40,18 +40,18 @@ For a PDF version of my CV, click [kgrinde_CV.pdf here].
 - Teaching Assistant, University of Washington
   -- BIOST 570, Regression Methods for Independent Data, Fall 2016
 - Instructor, University of Washington
-  -- First Year Statistical Theory Exam Review Session, Spring 2016
-
+  -- First Year Statistical Theory Exam Review Sessions, Spring 2016
+- Fun fact: I also spent many semesters as a volunteer teaching assistant and tutor at local elementary, middle, and high schools during my time as an undergraduate at St. Olaf College! I was studying to become a math teacher until I took a stats class and my path changed directions...
 
 == Education
-- PhD in Biostatistics, University of Washington, 2019 
-- BA in [https://wp.stola.fedu/mscs/ Mathematics], [https://wp.stolaf.edu/ St. Olaf College], 2014
+- PhD in [https://www.biostat.washington.edu/ Biostatistics], University of Washington, 2019 
+- BA in [https://wp.stolaf.edu/mscs/ Mathematics] with a Concentration in Statistics, St. Olaf College, 2014
 
 == Selected Honors and Awards
 - [https://www.nsfgrfp.org/ NSF GRFP], 2016--2019
 - [https://www.biostat.washington.edu/news-events/2019-graduation/ Thomas R. Fleming Excellence in Biostatistics Award], UW Biostatistics, 2019
 - [https://www.amstat.org/ASA/Your-Career/Awards/Gertrude-M-Cox-Scholarship.aspx Gertrude M. Cox Scholarship], ASA, 2018
-- [https://www.sph.washington.edu/news-events/news/biostatistics-student-recognized-leadership-community-service-seattle-arcs/ Dorothy L. Simpson Leadership Award], ARCS Foundation Seattle, 2018
+- [https://www.biostat.washington.edu/news-events/uw-biostat-student-recognized-for-leadership-and-community-outreach/ Dorothy L. Simpson Leadership Award], ARCS Foundation Seattle, 2018
 - [https://www.biostat.washington.edu/news-events/doctoral-students-recognized-for-excellence/ Excellence in Teaching Award], UW Biostatistics, 2018
-- [https://www.wnar.org/news/6345873/ Distinguished Oral Presentation Award], WNAR, 2018
-- Statistically Significant Award, St. Olaf College, 2014
+- [https://www.biostat.washington.edu/news-events/studentawards-2018-wnar/ Distinguished Oral Presentation Award], WNAR, 2018
+- Distinction in Statistics, St. Olaf College, 2014
