@@ -1,0 +1,53 @@
+# jemdoc: menu{MENU}{index.html}
+= Kelsey Erin Grinde, PhD
+
+~~~
+{}{img_left}{kgrinde_headshot.jpg}{300px}{300px}
+
+I am currently a Postdoctoral Teaching Fellow in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at the [https://www.macalester.edu/ Macalester College].
+
+My research interests fall broadly into the realm of statistical genetics, with the end goal of analyzing large genetic datasets to answer questions about human disease and population history. Most recently, my work has focused on developing statistical methods for genetic studies in *admixed populations*---populations such as African Americans and Hispanics/Latinos with mixed, diverse ancestry. My most recent first-author paper proposes methods for estimating genome-wide significance thresholds that control family-wise error rate in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics] and the corresponding R package on [https://github.com/kegrinde/STEAM GitHub] to learn more. 
+
+To get in touch with me, I can best be reached via email (kgrinde at macalester dot edu). I am always happy to talk about research, teaching, or (for prospective students) careers in (bio)statistics!
+
+For a PDF version of my CV, click [kgrinde_CV.pdf here].
+~~~
+
+== Research Interests
+- Statistical genetics
+- Biostatistics
+- Multiple testing
+
+For specifics, see my Research page and/or CV.
+
+== Research Experience
+- RA, [http://www.fredhutch.org/en/labs/vaccine-and-infectious-disease/scharp.html Statistical Center for HIV/AIDS Research and Prevention], [http://www.fredhutch.org/ Fred Hutchinson Cancer Research Center], June 2015--Present
+- Integrative Cancer Biology Program Research Fellow, [http://ccsb.stanford.edu/ Center for Cancer Systems Biology], [https://www.stanford.edu/ Stanford University], June--August 2013
+
+
+== Teaching Experience
+- Pre-Doctoral Instructor, University of Washington
+  -- BIOST 311, Regression Methods in the Health Sciences, March--June 2018
+- Lead TA, University of Washington
+  -- BIOST 511, Medical Biometry I, September--December 2017
+- TA, University of Washington
+  -- Biostatistics service courses, R package development, June 2014--June 2015
+  -- BIOST 571, Advanced Regression Methods for Dependent Data, January--March 2017
+  -- BIOST 311, Regression Methods for the Health Sciences, March--June 2017
+- Instructor, University of Washington
+  -- School of Public Health Math/R Workshop, September 2016 and 2017
+
+
+== Education
+- MS in Biostatistics, University of Washington, 2017
+- BA in [https://www.pomona.edu/academics/departments/mathematics Mathematics], [https://www.pomona.edu/ Pomona College], 2014 (under the direction of [http://research.pomona.edu/johardin/ Jo Hardin])
+
+== Selected Honors and Awards
+- NIH F31
+- Excellence in Teaching Award, Department of Biostatistics, University of Washington, 2018
+- ASA Nonparametrics Section Travel Award, JSM, 2019
+- ASA Biometrics Section Travel Award, JSM, 2018
+- Most Outstanding Oral Student Paper Award, WNAR, 2017
+- Top Scholar Incoming Student Award, Department of Biostatistics, University of Washington, 2014
+- Distinction in the Senior Exercise, Pomona College, May 2014
+- Best Insight, UCLA DataFest, June 2013
