@@ -4,11 +4,11 @@
 ~~~
 {}{img_left}{kgrinde_headshot.jpg}{300px}{300px}
 
-I am currently a Postdoctoral Teaching Fellow in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at [https://www.macalester.edu/ Macalester College]. 
+I am currently an Assistant Professor of Statistics in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at [https://www.macalester.edu/ Macalester College]. 
 
-My teaching experience and interests lie primarily in undergraduate statistics---from intro to statistical theory. Statistics is an inherently collaborative, interdisciplinary field, and I love how this is reflected in the makeup of student backgrounds and interests in undergraduate statistics courses.
+At Macalester, I teach classes ranging across all levels of our undergraduate statistics curriculum, from introductory statistics to upper-level statistical theory. Statistics is an inherently collaborative, interdisciplinary field, and I love how this is reflected in the makeup of student backgrounds and interests in our statistics courses at Macalester.
 
-My current research interests fall into the realm of statistical genetics. The ultimate goal of my work is to develop statistical methods that help us analyze large genetic datasets and answer important questions about human disease and population history. Most recently, my work has focused on genetic studies in /admixed populations/, populations such as African Americans and Hispanics/Latinos with mixed and diverse ancestry, which have been vastly underrepresented in genetics research. My most recent first-author paper develops methods for controlling for multiple testing in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics] and my R package [https://github.com/kegrinde/STEAM STEAM (Significance Threshold Estimation for Admixture Mapping)] to learn more. 
+My research interests fall into the realms of statistical genetics and biostatistics. Currently, my work focuses on developing statistical methods for genetic studies in /admixed populations/, populations such as African Americans and Hispanics/Latinos with mixed and diverse ancestry, which have been [https://www.nature.com/news/genomics-is-failing-on-diversity-1.20759 vastly underrepresented] in genetics research. My most recent first-author paper develops methods for controlling for multiple testing in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics] and my R package [https://github.com/kegrinde/STEAM STEAM (Significance Threshold Estimation for Admixture Mapping)] to learn more, and stay tuned for improvements to the STEAM package that are currently being implemented by my awesome student, [https://github.com/zuofuhuang Zuofu Huang]. 
 
 I love talking to current and prospective students about research, graduate programs, and careers in (bio)statistics. If you are a student (or educator) who would like to learn more about the opportunities in this field---and why I love working in it---please get in touch! I can best be reached via email (kgrinde at macalester dot edu).
 ~~~
@@ -21,6 +21,10 @@ A pdf version of my CV is available [kgrinde_CV.pdf here]. For a few highlights,
 - BA in [https://wp.stolaf.edu/mscs/ Mathematics], St. Olaf College, 2014
 
 == Teaching Experience
+- Assistant Professor, Macalester College
+  -- STAT 155, Introduction to Statistical Modeling, Fall 2020 (2 sections)
+  -- STAT 155, Introduction to Statistical Modeling, Spring 2020
+  -- MATH/STAT 455, Mathematical Statistics, Spring 2020
 - Postdoctoral Teaching Fellow, Macalester College
   -- STAT 155, Introduction to Statistical Modeling, Fall 2019 (2 sections)
   -- STAT 155, Introduction to Statistical Modeling, Spring 2020
@@ -40,6 +44,7 @@ A pdf version of my CV is available [kgrinde_CV.pdf here]. For a few highlights,
 - Multiple testing
 
 == Research Experience
+- [https://github.com/GrindeLab Grinde Lab], 2019--present
 - Graduate Research Assistant, [https://www.faculty.washington.edu/sguy/ Browning Statistical Genetics Lab], 2014--2019
 - Graduate Research Assistant, [https://www.biostat.washington.edu/research/centers/gac/ Genetic Analysis Center], 2015--2016
 - Undergraduate Research Assistant, [https://www.dordt.edu/academics/research-and-scholarship/undergraduate-summer-research/statistical-genetics-and-biostatistics Summer Research Program in Statistical Genetics and Biostatistics], 2013 and 2014
@@ -47,9 +52,9 @@ A pdf version of my CV is available [kgrinde_CV.pdf here]. For a few highlights,
 
 == Selected Honors and Awards
 - NSF GRFP, 2016--2019
-- [https://www.biostat.washington.edu/news-events/2019-graduation/ Thomas R. Fleming Excellence in Biostatistics Award], UW Biostatistics, 2019
+- Thomas R. Fleming Excellence in Biostatistics Award, UW Biostatistics, 2019
 - [https://www.amstat.org/ASA/Your-Career/Awards/Gertrude-M-Cox-Scholarship.aspx Gertrude M. Cox Scholarship], ASA, 2018
-- [https://www.biostat.washington.edu/news-events/uw-biostat-student-recognized-for-leadership-and-community-outreach/ Dorothy L. Simpson Leadership Award], ARCS Foundation Seattle, 2018
-- [https://www.biostat.washington.edu/news-events/doctoral-students-recognized-for-excellence/ Excellence in Teaching Award], UW Biostatistics, 2018
-- [https://www.biostat.washington.edu/news-events/studentawards-2018-wnar/ Distinguished Oral Presentation Award], WNAR, 2018
+- Dorothy L. Simpson Leadership Award, ARCS Foundation Seattle, 2018
+- Excellence in Teaching Award, UW Biostatistics, 2018
+- Distinguished Oral Presentation Award, WNAR, 2018
 - Distinction in Statistics, St. Olaf College, 2014
