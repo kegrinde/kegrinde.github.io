@@ -1,4 +1,24 @@
 # jemdoc: menu{MENU}{research.html}
 = Research
 
-(Coming soon!)
+== Research Interests
+- Statistical genetics
+- Biostatistics
+
+== Current Projects
+- Controlling for multiple testing in genome-wide admixture mapping studies
+- Ancestry inference and genetic association studies in the Trans-Omics for Precision Medicine (TOPMed) program
+- Adjusting for population structure in genetic association studies in admixed populations
+
+== Research Experience
+- [https://github.com/GrindeLab Grinde Lab], 2019--present
+- Graduate Research Assistant, [https://www.faculty.washington.edu/sguy/ Browning Statistical Genetics Lab], 2014--2019
+- Graduate Research Assistant, [https://www.biostat.washington.edu/research/centers/gac/ Genetic Analysis Center], 2015--2016
+- Undergraduate Research Assistant, [https://www.dordt.edu/academics/research-and-scholarship/undergraduate-summer-research/statistical-genetics-and-biostatistics Summer Research Program in Statistical Genetics and Biostatistics], 2013 and 2014
+- Undergraduate Research Fellow, [https://wp.stolaf.edu/cir Center for Interdisciplinary Research], 2013--2014
+
+== Research Awards & Recognition
+- NSF Graduate Research Fellow, 2016--2019
+- My [https://doi.org/10.1002/gepi.22166 paper] on constructing polygenic risk scores in Hispanic/Latino populations was selected as the International Genetic Epidemiology Society Communication Committee's highlight from the February 2019 issue of /Genetic Epidemiology/
+- My presentation (based on [https://doi.org/10.1016/j.ajhg.2019.01.008 this paper]) on controlling for multiple testing in admixture mapping studies was awarded a /Distinguished Oral Presentation Award/ at the 2018 WNAR Annual Conference in Edmonton, Canada
+
