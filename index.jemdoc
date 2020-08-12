@@ -11,18 +11,5 @@ At Macalester, I teach classes ranging across all levels of our undergraduate st
 My research interests fall into the realms of statistical genetics and biostatistics. Currently, my work focuses on developing statistical methods for genetic studies in /admixed populations/, populations such as African Americans and Hispanics/Latinos with mixed and diverse ancestry, which have been [https://www.nature.com/news/genomics-is-failing-on-diversity-1.20759 vastly underrepresented] in genetics research. My most recent first-author paper develops methods for controlling for multiple testing in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics] and my R package [https://github.com/kegrinde/STEAM STEAM (Significance Threshold Estimation for Admixture Mapping)] to learn more, and stay tuned for improvements to the STEAM package that are currently being implemented by my awesome student, [https://github.com/zuofuhuang Zuofu Huang]. 
 
 I love talking to current and prospective students about research, graduate programs, and careers in (bio)statistics. If you are a student (or educator) who would like to learn more about the opportunities in this field---and why I love working in it---please get in touch! I can best be reached via email (kgrinde at macalester dot edu).
-~~~
 
-== CV
-A pdf version of my CV is available [kgrinde_CV.pdf here]. For a few highlights, see below.
 
-== Education
-- PhD in [https://www.biostat.washington.edu/ Biostatistics], University of Washington, 2019 
-- BA in [https://wp.stolaf.edu/mscs/ Mathematics], St. Olaf College, 2014
-
-== Selected Honors and Awards
-- Thomas R. Fleming Excellence in Biostatistics Award, UW Biostatistics, 2019
-- [https://www.amstat.org/ASA/Your-Career/Awards/Gertrude-M-Cox-Scholarship.aspx Gertrude M. Cox Scholarship], ASA, 2018
-- Dorothy L. Simpson Leadership Award, ARCS Foundation Seattle, 2018
-- Excellence in Teaching Award, UW Biostatistics, 2018
-- Distinction in Statistics, St. Olaf College, 2014
