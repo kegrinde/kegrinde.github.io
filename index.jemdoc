@@ -4,9 +4,7 @@
 ~~~
 {}{img_left}{kgrinde_headshot.jpg}{300px}{300px}
 
-I am currently an Assistant Professor of Statistics in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at [https://www.macalester.edu/ Macalester College]. 
-
-At Macalester, I teach classes ranging across all levels of our undergraduate statistics curriculum, from introductory statistics to upper-level statistical theory. Statistics is an inherently collaborative, interdisciplinary field, and I love how this is reflected in the makeup of student backgrounds and interests in our statistics courses at Macalester.
+I am an Assistant Professor of Statistics in the [https://www.macalester.edu/mscs/ Department of Mathematics, Statistics, and Computer Science] at [https://www.macalester.edu/ Macalester College]. Statistics is an inherently collaborative, interdisciplinary field, and I love how this is reflected in the makeup of student backgrounds and interests in our statistics courses at Macalester.
 
 My research interests fall into the realms of statistical genetics and biostatistics. Currently, my work focuses on developing statistical methods for genetic studies in /admixed populations/, populations such as African Americans and Hispanics/Latinos with mixed and diverse ancestry, which have been [https://www.nature.com/news/genomics-is-failing-on-diversity-1.20759 vastly underrepresented] in genetics research. My most recent first-author paper develops methods for controlling for multiple testing in admixture mapping studies: check out my paper in the [https://doi.org/10.1016/j.ajhg.2019.01.008 American Journal of Human Genetics], my R package [https://github.com/kegrinde/STEAM STEAM (Significance Threshold Estimation for Admixture Mapping)], and the faster version of this package [https://github.com/GrindeLab/STEAMcpp STEAMcpp] created by my former student, [https://www.linkedin.com/in/zuofu-huang-588341180 Zuofu Huang]. 
 
