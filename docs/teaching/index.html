@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kelsey E. Grinde, PhD - Kelsey E. Grinde</title>
+<title>Kelsey E. Grinde, PhD - Teaching</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,19 +68,77 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-Course','listing-Semester Taught','listing-Syllabus','listing-Materials',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-Course","listing-Semester Taught","listing-Syllabus","listing-Materials"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Kelsey E. Grinde, PhD</span>
     </a>
   </div>
@@ -88,29 +149,29 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching/index.html"> 
+    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html"> 
+    <a class="nav-link" href="../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="./cv/cv.pdf" title="CV" class="quarto-navigation-tool px-1" aria-label="CV"><i class="bi bi-file-person"></i></a>
+    <a href="../cv/cv.pdf" title="CV" class="quarto-navigation-tool px-1" aria-label="CV"><i class="bi bi-file-person"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -119,49 +180,143 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles content">
-  <div class="about-entity">
-    <img src="images/headshot.jpg" alt="Headshot of Kelsey Grinde" class="about-image
-  rounded " style="width: 20em;">
+<main class="content" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Kelsey E. Grinde</h1>
-<p class="subtitle lead">Biostatistician</p>
+<h1 class="title">Teaching</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:kgrinde@macalester.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://www.linkedin.com/in/kelsey-grinde/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/kegrinde" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=-lS0yWMAAAAJ&amp;hl=en" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-</div>
+
+
+<p>At Macalester, I teach classes ranging across all levels of our undergraduate statistics curriculum, from introductory statistics to upper-level statistical theory. Materials for each of these courses are provided in the table below.</p>
+<p>Before coming to Macalester, I was an instructor and teaching assistant for various undergraduate and graduate biostatistics courses at the University of Washington. More details about the latter are available on my <a href="cv/cv.pdf">CV</a>.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-Course" data-direction="asc">
+          Course
+        </option>
+         <option value="listing-Semester Taught" data-direction="asc">
+          Semester Taught
+        </option>
+         <option value="listing-Syllabus" data-direction="asc">
+          Syllabus
+        </option>
+         <option value="listing-Materials" data-direction="asc">
+          Materials
+        </option>
+     </select>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am an Assistant Professor in the <a href="https://www.macalester.edu/mscs/">Department of Mathematics, Statistics, and Computer Science</a> at Macalester College in St.&nbsp;Paul, Minnesota.</p>
-<p>At Macalester, I teach courses across our undergraduate statistics and data science curriculum. You can find a complete list of the courses I have taught, and their corresponding course materials, on my <strong>Teaching</strong> page.</p>
-<p>My research focuses on developing and applying statistical methods to answer questions about human health and genetics. Read more about current and past projects on my <strong>Research</strong> page.</p>
-<p>I enjoy talking with students about research, graduate programs, and career opportunities in (bio)statistics. If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the <strong>Resources</strong> page.</p>
-
-
-</main></div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
- <!-- /main -->
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-Course" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Course</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-Semester Taught" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Semester Taught</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-Syllabus" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Syllabus</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-Materials" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Materials</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0">
+<td>
+<span class="listing-Course">STAT 155: Introduction to Statistical Modeling</span>
+</td>
+<td>
+<span class="listing-Semester Taught">Fall 2019 (x2), Spring 2020, Fall 2020 (x2), Spring 2021, Fall 2021 (x2), Spring 2022 (x2), Fall 2022, Spring 2023 (x2)</span>
+</td>
+<td>
+<span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1V0f7kvqDJmAaBSudIvusUfqIeFNHPfdLu0OxkT7YMGo/edit?usp=sharing">Spring 2023 Syllabus</a></span>
+</td>
+<td>
+<span class="listing-Materials"><a href="https://mac-stat.github.io/Stat155Notes/">STAT 155 Notes</a></span>
+</td>
+</tr>
+<tr data-index="1">
+<td>
+<span class="listing-Course">STAT 253: Statistical Machine Learning</span>
+</td>
+<td>
+<span class="listing-Semester Taught">Fall 2024 (x3)</span>
+</td>
+<td>
+<span class="listing-Syllabus">coming soon</span>
+</td>
+<td>
+<span class="listing-Materials">coming soon</span>
+</td>
+</tr>
+<tr data-index="2">
+<td>
+<span class="listing-Course">MATH/STAT 455: Mathematical Statistics</span>
+</td>
+<td>
+<span class="listing-Semester Taught">Spring 2020, Spring 2021, Spring 2022, Spring 2023</span>
+</td>
+<td>
+<span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1Wna71o2vLdqP7tia7dgGOZVyuph3KJk_tyNHCIpNEhM/edit?usp=sharing">Spring 2023 Syllabus</a></span>
+</td>
+<td>
+<span class="listing-Materials"><a href="https://kegrinde.github.io/MathStatNotes/index.html">Reading Guides</a></span>
+</td>
+</tr>
+<tr data-index="3">
+<td>
+<span class="listing-Course">STAT 494: Statistical Genetics</span>
+</td>
+<td>
+<span class="listing-Semester Taught">Fall 2022</span>
+</td>
+<td>
+<span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1G3GNyENHki7azFbSIEhPAX9cnUFMSuwDwm-NBwGjaNw/edit?usp=sharing">Fall 2022 Syllabus</a></span>
+</td>
+<td>
+<span class="listing-Materials">coming soon</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -182,6 +337,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

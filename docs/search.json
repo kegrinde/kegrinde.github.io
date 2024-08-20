@@ -35,34 +35,6 @@
     "text": "Stay Tuned…\nMore resources coming soon!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Kelsey E. Grinde",
-    "section": "",
-    "text": "I am an Assistant Professor in the Department of Mathematics, Statistics, and Computer Science at Macalester College in St. Paul, Minnesota.\nAt Macalester, I teach courses across our undergraduate statistics and data science curriculum. You can find a complete list of the courses I have taught, and their corresponding course materials, on my Teaching page.\nMy research focuses on developing and applying statistical methods to answer questions about human health and genetics. Read more about current and past projects on my Research page.\nI enjoy talking with students about research, graduate programs, and career opportunities in (bio)statistics. If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the Resources page."
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations—populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos—which have been vastly underrepresented in genetics research to date. For example, one of my recent projects developed methods and a corresponding R package (the latter of which has ongoing involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies.\nMethodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, sparsity, and complicated correlation structure, as well as concerns about confounding and collider bias that can arise in these studies. In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students."
-  },
-  {
-    "objectID": "research.html#current-projects",
-    "href": "research.html#current-projects",
-    "title": "Research",
-    "section": "Current Projects",
-    "text": "Current Projects\n\nAdjusting for population structure in genetic association studies in admixed populations (preprint)\nUpdating the STEAM R package, in collaboration with Macalester students Zuofu Huang (‘21’), Tina Chen (’25), Sydney Ohr (’26), and Katelyn McClure (’26)\nUnderstanding the power—and limitations—of admixture mapping studies, in collaboration with Macalester student Tina Chen (’25)\n\nRead more about our group on our GitHub page."
-  },
-  {
-    "objectID": "research.html#publications",
-    "href": "research.html#publications",
-    "title": "Research",
-    "section": "Publications",
-    "text": "Publications\nYou can find a full list of publications on my CV or Google Scholar."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -89,5 +61,40 @@
     "title": "About Me",
     "section": "Personal",
     "text": "Personal\nMy name is pronounced KELL-see GRIN-dee (click this link to listen to me pronounce my name) and I use the pronouns she/her/hers. I live in St. Paul, Minnesota with my husband, Zack. I am originally from Minnesota (I grew up in Plymouth, a suburb of Minneapolis) and am happy to back in the Twin Cities as of 2019.\nIn my free time, I enjoy:\n\nplaying and watching soccer\ntrying new restaurants, breweries, and coffee shops around the Twin Cities\nlistening to local radio station The Current\ntraveling, especially when it involves hiking (the picture on this page is from a February 2024 trip to Fiordland National Park in New Zealand)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations—populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos—which have been vastly underrepresented in genetics research to date. For example, one of my recent projects developed methods and a corresponding R package (the latter of which has ongoing involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies.\nMethodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, sparsity, and complicated correlation structure, as well as concerns about confounding and collider bias that can arise in these studies. In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students."
+  },
+  {
+    "objectID": "research.html#current-projects",
+    "href": "research.html#current-projects",
+    "title": "Research",
+    "section": "Current Projects",
+    "text": "Current Projects\n\nAdjusting for population structure in genetic association studies in admixed populations (preprint)\nUpdating the STEAM R package, in collaboration with Macalester students Zuofu Huang (‘21’), Tina Chen (’25), Sydney Ohr (’26), and Katelyn McClure (’26)\nUnderstanding the power—and limitations—of admixture mapping studies, in collaboration with Macalester student Tina Chen (’25)\n\nRead more about our group on our GitHub page."
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\nYou can find a full list of publications on my CV or Google Scholar."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kelsey E. Grinde",
+    "section": "",
+    "text": "I am an Assistant Professor in the Department of Mathematics, Statistics, and Computer Science at Macalester College in St. Paul, Minnesota.\nAt Macalester, I teach courses across our undergraduate statistics and data science curriculum. You can find a complete list of the courses I have taught, and their corresponding course materials, on my Teaching page.\nMy research focuses on developing and applying statistical methods to answer questions about human health and genetics. Read more about current and past projects on my Research page.\nI enjoy talking with students about research, graduate programs, and career opportunities in (bio)statistics. If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the Resources page."
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "At Macalester, I teach classes ranging across all levels of our undergraduate statistics curriculum, from introductory statistics to upper-level statistical theory. Materials for each of these courses are provided in the table below.\nBefore coming to Macalester, I was an instructor and teaching assistant for various undergraduate and graduate biostatistics courses at the University of Washington. More details about the latter are available on my CV.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Course\n        \n         \n          Semester Taught\n        \n         \n          Syllabus\n        \n         \n          Materials\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nCourse\n\n\nSemester Taught\n\n\nSyllabus\n\n\nMaterials\n\n\n\n\n\n\nSTAT 155: Introduction to Statistical Modeling\n\n\nFall 2019 (x2), Spring 2020, Fall 2020 (x2), Spring 2021, Fall 2021 (x2), Spring 2022 (x2), Fall 2022, Spring 2023 (x2)\n\n\nSpring 2023 Syllabus\n\n\nSTAT 155 Notes\n\n\n\n\nSTAT 253: Statistical Machine Learning\n\n\nFall 2024 (x3)\n\n\ncoming soon\n\n\ncoming soon\n\n\n\n\nMATH/STAT 455: Mathematical Statistics\n\n\nSpring 2020, Spring 2021, Spring 2022, Spring 2023\n\n\nSpring 2023 Syllabus\n\n\nReading Guides\n\n\n\n\nSTAT 494: Statistical Genetics\n\n\nFall 2022\n\n\nFall 2022 Syllabus\n\n\ncoming soon\n\n\n\n\n\nNo matching items"
   }
 ]
