@@ -1,5 +1,42 @@
 ---
-title: "About"
+title: "About Me"
+image: images/personal.jpeg
+image-alt: "Photo of a smiling woman wearing glasses and a winter hat in front of a beautiful New Zealand landscape"
+about: 
+  id: test-heading
+  template: jolla
 ---
 
-About this site
+:::{#test-heading}
+
+Kelsey E. Grinde \| [pronunciation](https://namedrop.io/kelseygrinde) \| she/her/hers
+
+:::
+
+
+## Education
+
+University of Washington \| Seattle, WA \| Sep 2014 -- Aug 2019
+
+St. Olaf College \| Northfield, MN \| Sep 2010 -- May 2014
+
+
+## Work Experience
+
+Macalester College \| Assistant Professor \| Aug 2020 -- present 
+
+Macalester College \| Teaching Postdoc \| Aug 2019 -- Aug 2020
+
+## Personal
+
+My name is pronounced KELL-see GRIN-dee (click [this link](https://namedrop.io/kelseygrinde) to listen to me pronounce my name) and I use the pronouns she/her/hers. 
+I live in St. Paul, Minnesota with my husband, Zack. 
+I am originally from Minnesota (I grew up in Plymouth, a suburb of Minneapolis) and am  happy to back in the Twin Cities as of 2019.
+
+In my free time, I enjoy:
+
+- playing and watching soccer (from February to October you'll find me at every Minnesota United home game)
+- trying new restaurants, breweries, and coffee shops around the Twin Cities
+- listening to local radio station [The Current](https://www.thecurrent.org/)
+- traveling, especially when it involves hiking (the picture above is from a February 2024 trip to Fiordland National Park in New Zealand) 
+

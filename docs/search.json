@@ -2,9 +2,30 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "Kelsey E. Grinde | pronunciation | she/her/hers"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nUniversity of Washington | Seattle, WA | Sep 2014 – Aug 2019\nSt. Olaf College | Northfield, MN | Sep 2010 – May 2014"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "About Me",
+    "section": "Work Experience",
+    "text": "Work Experience\nMacalester College | Assistant Professor | Aug 2020 – present\nMacalester College | Teaching Postdoc | Aug 2019 – Aug 2020"
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "About Me",
+    "section": "Personal",
+    "text": "Personal\nMy name is pronounced KELL-see GRIN-dee (click this link to listen to me pronounce my name) and I use the pronouns she/her/hers. I live in St. Paul, Minnesota with my husband, Zack. I am originally from Minnesota (I grew up in Plymouth, a suburb of Minneapolis) and am happy to back in the Twin Cities as of 2019.\nIn my free time, I enjoy:\n\nplaying and watching soccer (from February to October you’ll find me at every Minnesota United home game)\ntrying new restaurants, breweries, and coffee shops around the Twin Cities\nlistening to local radio station The Current\ntraveling, especially when it involves hiking (the picture above is from a February 2024 trip to Fiordland National Park in New Zealand)"
   },
   {
     "objectID": "index.html",
