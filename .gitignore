@@ -10,3 +10,5 @@ CV/.DS_Store
 .Rdata
 .httr-oauth
 .quarto
+
+*.Rproj
