@@ -5,10 +5,21 @@ project:
 website:
   title: "Kelsey E. Grinde, PhD"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
+      - text: Research
+        href: research.qmd
+      - text: Resources
+        href: resources.qmd
+      - text: About Me
+        href: about.qmd
+    tools: 
+      - icon: file-person
+        text: CV
+        href: cv/cv.pdf
 
 format:
   html:

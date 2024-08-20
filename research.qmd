@@ -1,0 +1,28 @@
+---
+title: "Research"
+---
+
+My research focuses on developing and applying statistical methods to answer questions about human health and genetics. 
+Most recently, my work has focused on genetic studies in admixed populations---populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos---which have been [vastly underrepresented](https://www.nature.com/articles/538161a) in genetics research to date. 
+For example, one of my recent projects developed methods and a corresponding [R package](https://github.com/GrindeLab/STEAM) (the latter of which has involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies. 
+
+Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, sparsity, and complicated correlation structure, as well as concerns about confounding and collider bias that can arise in these studies. 
+In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. 
+This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students.
+
+## Research Interests
+
+- Statistical genetics
+- Biostatistics
+
+## Current Projects
+
+- Adjusting for population structure in genetic association studies in admixed populations [(preprint)](https://www.biorxiv.org/content/10.1101/2024.04.02.587682v1)
+- Updating the `STEAM` R package, in collaboration with Macalester students Zuofu Huang ('21'), Tina Chen ('25), Sydney Ohr ('26), and Katelyn McClure ('26) 
+- Understanding the power---and limitations---of admixture mapping studies, in collaboration with Macalester student Tina Chen ('25)
+
+Read more about our group on our [GitHub page](https://github.com/GrindeLab).
+
+## Publications
+
+You can find a full list of publications on my [CV](cv/cv.pdf) or [Google Scholar](https://scholar.google.com/citations?user=-lS0yWMAAAAJ&hl=en).
