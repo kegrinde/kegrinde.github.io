@@ -3,3 +3,10 @@ CV/CV.log
 CV/CV.synctex.gz
 .DS_Store
 CV/.DS_Store
+
+/.quarto/
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.quarto
