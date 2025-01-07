@@ -9,8 +9,9 @@ about:
 Hello! Welcome to my website.
 
 My name is Kelsey Grinde ([KELL-see GRIN-dee](https://namedrop.io/kelseygrinde)) and I use the pronouns she/her/hers. 
-I am a biostatistician and Assistant Professor at Macalester College in St. Paul, Minnesota. 
+I am a biostatistician and Assistant Professor of Statistics at Macalester College in St. Paul, Minnesota. 
 I am originally from the Twin Cities and am happy to back as of 2019.
+
 Before coming to Macalester, I spent five years in Seattle pursuing my PhD in [Biostatistics at the University of Washington](https://www.biostat.washington.edu/). 
 My interest in statistics was first inspired by wonderful professors at [St. Olaf College](https://wp.stolaf.edu/mscs/), where I pursued a BA in mathematics. 
 

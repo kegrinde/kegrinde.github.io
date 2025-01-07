@@ -11,12 +11,15 @@ This often involves close collaboration with experts in other disciplines and, w
 
 ## Current Projects
 
-- Adjusting for population structure in genetic association studies in admixed populations [(preprint)](https://www.biorxiv.org/content/10.1101/2024.04.02.587682v1)
-- Updating the `STEAM` R package, in collaboration with Macalester students Zuofu Huang ('21'), Tina Chen ('25), Sydney Ohr ('26), and Katelyn McClure ('26) 
+- Updating the `STEAM` R package, in collaboration with Macalester students Zuofu Huang ('21), Tina Chen ('25), Sydney Ohr ('26), and Katelyn McClure ('26) 
 - Understanding the power---and limitations---of admixture mapping studies, in collaboration with Macalester student Tina Chen ('25)
 
 Read more about our group on our [GitHub page](https://github.com/GrindeLab).
 
 ## Publications
+
+My most recent publication can be found in *PLOS Genetics*:
+
+> Grinde KE, Browning BL, Reiner AP, Thornton TA, Browning SR (2024) Adjusting for principal components can induce collider bias in genome-wide association studies. PLOS Genetics 20(12): e1011242. [https://doi.org/10.1371/journal.pgen.1011242](https://doi.org/10.1371/journal.pgen.1011242)
 
 You can find a full list of publications on my [CV](cv/cv.pdf) or [Google Scholar](https://scholar.google.com/citations?user=-lS0yWMAAAAJ&hl=en).

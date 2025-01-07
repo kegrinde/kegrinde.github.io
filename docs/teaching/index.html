@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-Course','listing-Semester Taught','listing-Syllabus','listing-Materials',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-Course','listing-Sections Taught','listing-Semesters Taught','listing-Syllabus','listing-Materials',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-Course","listing-Semester Taught","listing-Syllabus","listing-Materials"],
+      searchColumns: ["listing-Course","listing-Sections Taught","listing-Semesters Taught","listing-Syllabus","listing-Materials"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -221,8 +221,11 @@ window.Quarto = {
          <option value="listing-Course" data-direction="asc">
           Course
         </option>
-         <option value="listing-Semester Taught" data-direction="asc">
-          Semester Taught
+         <option value="listing-Sections Taught" data-direction="asc">
+          Sections Taught
+        </option>
+         <option value="listing-Semesters Taught" data-direction="asc">
+          Semesters Taught
         </option>
          <option value="listing-Syllabus" data-direction="asc">
           Syllabus
@@ -244,7 +247,10 @@ window.Quarto = {
 <a class="sort" data-sort="listing-Course" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Course</a>
 </th>
 <th>
-<a class="sort" data-sort="listing-Semester Taught" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Semester Taught</a>
+<a class="sort" data-sort="listing-Sections Taught" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Sections Taught</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-Semesters Taught" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Semesters Taught</a>
 </th>
 <th>
 <a class="sort" data-sort="listing-Syllabus" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Syllabus</a>
@@ -260,7 +266,10 @@ window.Quarto = {
 <span class="listing-Course">STAT 155: Introduction to Statistical Modeling</span>
 </td>
 <td>
-<span class="listing-Semester Taught">Fall 2019 (x2), Spring 2020, Fall 2020 (x2), Spring 2021, Fall 2021 (x2), Spring 2022 (x2), Fall 2022, Spring 2023 (x2)</span>
+<span class="listing-Sections Taught">13</span>
+</td>
+<td>
+<span class="listing-Semesters Taught">Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2022, Fall 2022, Spring 2023</span>
 </td>
 <td>
 <span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1V0f7kvqDJmAaBSudIvusUfqIeFNHPfdLu0OxkT7YMGo/edit?usp=sharing">Spring 2023 Syllabus</a></span>
@@ -274,13 +283,16 @@ window.Quarto = {
 <span class="listing-Course">STAT 253: Statistical Machine Learning</span>
 </td>
 <td>
-<span class="listing-Semester Taught">Fall 2024 (x3)</span>
+<span class="listing-Sections Taught">4</span>
 </td>
 <td>
-<span class="listing-Syllabus">coming soon</span>
+<span class="listing-Semesters Taught">Fall 2024, Spring 2025</span>
 </td>
 <td>
-<span class="listing-Materials">coming soon</span>
+<span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1s7SeaT7i_IuJ_0pZKhpHn_9_LUz6_zi17fLUWbdfJFI/edit?usp=sharing">Fall 2024 Syllabus</a></span>
+</td>
+<td>
+<span class="listing-Materials"><a href="https://kegrinde.github.io/stat253_coursenotes/"> STAT 253 Course Notes</a></span>
 </td>
 </tr>
 <tr data-index="2">
@@ -288,13 +300,16 @@ window.Quarto = {
 <span class="listing-Course">MATH/STAT 455: Mathematical Statistics</span>
 </td>
 <td>
-<span class="listing-Semester Taught">Spring 2020, Spring 2021, Spring 2022, Spring 2023</span>
+<span class="listing-Sections Taught">4</span>
+</td>
+<td>
+<span class="listing-Semesters Taught">Spring 2020, Spring 2021, Spring 2022, Spring 2023</span>
 </td>
 <td>
 <span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1Wna71o2vLdqP7tia7dgGOZVyuph3KJk_tyNHCIpNEhM/edit?usp=sharing">Spring 2023 Syllabus</a></span>
 </td>
 <td>
-<span class="listing-Materials"><a href="https://kegrinde.github.io/MathStatNotes/index.html">Reading Guides</a></span>
+<span class="listing-Materials"><a href="https://kegrinde.github.io/MathStatNotes/index.html">Math Stat Reading Guides</a></span>
 </td>
 </tr>
 <tr data-index="3">
@@ -302,7 +317,10 @@ window.Quarto = {
 <span class="listing-Course">STAT 494: Statistical Genetics</span>
 </td>
 <td>
-<span class="listing-Semester Taught">Fall 2022</span>
+<span class="listing-Sections Taught">2</span>
+</td>
+<td>
+<span class="listing-Semesters Taught">Fall 2022, Spring 2025</span>
 </td>
 <td>
 <span class="listing-Syllabus"><a href="https://docs.google.com/presentation/d/1G3GNyENHki7azFbSIEhPAX9cnUFMSuwDwm-NBwGjaNw/edit?usp=sharing">Fall 2022 Syllabus</a></span>
