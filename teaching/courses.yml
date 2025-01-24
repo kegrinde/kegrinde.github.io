@@ -1,20 +1,23 @@
 - Course: "STAT 155: Introduction to Statistical Modeling"
   Sections Taught: 13
-  Semesters Taught: "Fall 2019, Spring 2020, Fall 2020, Spring 2021, Fall 2021, Spring 2022, Fall 2022, Spring 2023"
-  Syllabus: <a href="https://docs.google.com/presentation/d/1V0f7kvqDJmAaBSudIvusUfqIeFNHPfdLu0OxkT7YMGo/edit?usp=sharing">Spring 2023 Syllabus</a>
-  Materials: <a href="https://mac-stat.github.io/Stat155Notes/">STAT 155 Notes</a>
+  Semesters Taught: "Fa19, Sp2020, Fa2020, Sp2021, Fa2021, Sp2022, Fa2022, Sp2023"
+  Syllabus: <a href="https://docs.google.com/presentation/d/1V0f7kvqDJmAaBSudIvusUfqIeFNHPfdLu0OxkT7YMGo/edit?usp=sharing">Sp2023 Syllabus</a>
+  Materials: <a href="https://mac-stat.github.io/Stat155Notes/">STAT 155 Notes (OER)</a>
 - Course: "STAT 253: Statistical Machine Learning"
   Sections Taught: 4
-  Semesters Taught: "Fall 2024, Spring 2025"
-  Syllabus: <a href="https://docs.google.com/presentation/d/1s7SeaT7i_IuJ_0pZKhpHn_9_LUz6_zi17fLUWbdfJFI/edit?usp=sharing">Fall 2024 Syllabus</a>
-  Materials: <a href="https://kegrinde.github.io/stat253_coursenotes/"> STAT 253 Course Notes</a>
+  Semesters Taught: "Fa2024, Sp2025"
+  #Syllabus: <a href="https://docs.google.com/presentation/d/1s7SeaT7i_IuJ_0pZKhpHn_9_LUz6_zi17fLUWbdfJFI/edit?usp=sharing">Fall 2024 Syllabus</a>
+  #Materials: <a href="https://kegrinde.github.io/stat253_coursenotes/"> STAT 253 Course Notes</a>
+  Syllabus: <a href="https://docs.google.com/presentation/d/1joncyIdKqVGjZXYzwShQOc4oEHlv4b8_AnbVWkOe3GM/edit?usp=sharing">Sp2025 Syllabus</a>
+  Materials: <a href="https://kegrinde.github.io/STAT253/">Course Notes</a>
 - Course: "MATH/STAT 455: Mathematical Statistics"
   Sections Taught: 4
-  Semesters Taught: "Spring 2020, Spring 2021, Spring 2022, Spring 2023"
-  Syllabus: <a href="https://docs.google.com/presentation/d/1Wna71o2vLdqP7tia7dgGOZVyuph3KJk_tyNHCIpNEhM/edit?usp=sharing">Spring 2023 Syllabus</a>
-  Materials: <a href="https://kegrinde.github.io/MathStatNotes/index.html">Math Stat Reading Guides</a>
+  Semesters Taught: "Sp2020, Sp2021, Sp2022, Sp2023"
+  Syllabus: <a href="https://docs.google.com/presentation/d/1Wna71o2vLdqP7tia7dgGOZVyuph3KJk_tyNHCIpNEhM/edit?usp=sharing">Sp2023 Syllabus</a>
+  Materials: <a href="https://kegrinde.github.io/MathStatNotes/index.html">Reading Guides</a>
 - Course: "STAT 494: Statistical Genetics"
   Sections Taught: 2
-  Semesters Taught: "Fall 2022, Spring 2025"
-  Syllabus: <a href="https://docs.google.com/presentation/d/1G3GNyENHki7azFbSIEhPAX9cnUFMSuwDwm-NBwGjaNw/edit?usp=sharing">Fall 2022 Syllabus</a>
-  Materials: "coming soon"
+  Semesters Taught: "Fa2022, Sp2025"
+  #Syllabus: <a href="https://docs.google.com/presentation/d/1G3GNyENHki7azFbSIEhPAX9cnUFMSuwDwm-NBwGjaNw/edit?usp=sharing">Fa2022 Syllabus</a>
+  Syllabus: <a href="https://docs.google.com/presentation/d/1VIvN-LrdSihLTsbWmJ9FufEA4MQPJsu3Q23EtyvPaWU/edit?usp=sharing">Sp2025 Syllabus</a>
+  Materials: <a href="https://mac-stat.github.io/statgen/">Course Website</a>

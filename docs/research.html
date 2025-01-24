@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Kelsey E. Grinde, PhD - Research</title>
+<title>Research – Kelsey E. Grinde, PhD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -110,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
     <a href="./cv/cv.pdf" title="CV" class="quarto-navigation-tool px-1" aria-label="CV"><i class="bi bi-file-person"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -152,8 +152,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations—populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos—which have been <a href="https://www.nature.com/articles/538161a">vastly underrepresented</a> in genetics research to date. For example, one of my recent projects developed methods and a corresponding <a href="https://github.com/GrindeLab/STEAM">R package</a> (the latter of which has ongoing involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies.</p>
-<p>Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, sparsity, and complicated correlation structure, as well as concerns about confounding and collider bias that can arise in these studies. In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students.</p>
+<p>My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations—populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos—who have been <a href="https://www.nature.com/articles/538161a">vastly underrepresented</a> in genetics research to date. For example, one of my recent projects developed methods and a corresponding <a href="https://github.com/GrindeLab/STEAM">R package</a> (the latter of which has ongoing involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies.</p>
+<p>Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies. In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students.</p>
 <section id="current-projects" class="level2">
 <h2 class="anchored" data-anchor-id="current-projects">Current Projects</h2>
 <ul>
@@ -169,6 +169,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Grinde KE, Browning BL, Reiner AP, Thornton TA, Browning SR (2024) Adjusting for principal components can induce collider bias in genome-wide association studies. PLOS Genetics 20(12): e1011242. <a href="https://doi.org/10.1371/journal.pgen.1011242">https://doi.org/10.1371/journal.pgen.1011242</a></p>
 </blockquote>
 <p>You can find a full list of publications on my <a href="cv/cv.pdf">CV</a> or <a href="https://scholar.google.com/citations?user=-lS0yWMAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+<!-- reorganize into tile structure? -->
 
 
 </section>
@@ -209,18 +210,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -252,7 +242,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -260,7 +272,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

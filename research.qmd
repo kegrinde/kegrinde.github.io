@@ -2,10 +2,10 @@
 title: "Research"
 ---
 
-My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations---populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos---which have been [vastly underrepresented](https://www.nature.com/articles/538161a) in genetics research to date. 
+My primary research interests are in the areas of biostatistics and statistical genetics. Most recently, my work has focused on developing and applying statistical methods for genetic studies in admixed populations---populations with mixed and diverse ancestry such as African Americans and Hispanics/Latinos---who have been [vastly underrepresented](https://www.nature.com/articles/538161a) in genetics research to date. 
 For example, one of my recent projects developed methods and a corresponding [R package](https://github.com/GrindeLab/STEAM) (the latter of which has ongoing involved collaboration with Macalester students) for controlling for multiple testing in genome-wide admixture mapping studies. 
 
-Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, sparsity, and complicated correlation structure, as well as concerns about confounding and collider bias that can arise in these studies. 
+Methodologically, I am particularly interested in addressing the statistical challenges posed by genetic data, such as their high dimensional nature, complicated correlation structure, and concerns about confounding and collider bias that can arise in these studies. 
 In general, I strive to ensure that my applied and methodological work is grounded in a deep understanding of the context (scientific, ethical, etc.) surrounding the data with which I am working. 
 This often involves close collaboration with experts in other disciplines and, whenever possible, undergraduate students.
 
@@ -23,3 +23,6 @@ My most recent publication can be found in *PLOS Genetics*:
 > Grinde KE, Browning BL, Reiner AP, Thornton TA, Browning SR (2024) Adjusting for principal components can induce collider bias in genome-wide association studies. PLOS Genetics 20(12): e1011242. [https://doi.org/10.1371/journal.pgen.1011242](https://doi.org/10.1371/journal.pgen.1011242)
 
 You can find a full list of publications on my [CV](cv/cv.pdf) or [Google Scholar](https://scholar.google.com/citations?user=-lS0yWMAAAAJ&hl=en).
+
+
+<!-- reorganize into tile structure? -->
