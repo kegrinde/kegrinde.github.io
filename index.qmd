@@ -26,7 +26,8 @@ At Macalester, I teach courses across our undergraduate statistics and data scie
 You can find a complete list of the courses I have taught, and their corresponding course materials, on my [Teaching](teaching/index.qmd) page.  
 
 My research focuses on developing and applying statistical methods to answer questions about human health and genetics. 
-Read more about current and past projects on my [Research](research.qmd) page.
+I am also increasingly interested in Scholarship on Teaching and Learning. 
+Read more about current and past projects on my [Scholarship](research.qmd) page.
 
 I enjoy talking with students about research, graduate programs, and career opportunities in (bio)statistics. 
 If you are a looking to learn more about opportunities in this field, please get in touch and/or check out the [Resources](resources.qmd) page.
