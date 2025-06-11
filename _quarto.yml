@@ -10,7 +10,7 @@ website:
         href: index.qmd
       - text: Teaching
         href: teaching/index.qmd
-      - text: Research
+      - text: Scholarship
         href: research.qmd
       - text: Resources
         href: resources.qmd
