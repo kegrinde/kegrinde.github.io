@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -132,9 +132,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header><main class="content" id="quarto-document-content">
 <p>Hello! Welcome to my website.</p>
-<p>My name is Kelsey Grinde (<a href="https://namedrop.io/kelseygrinde">KELL-see GRIN-dee</a>) and I use the pronouns she/her/hers. I am a biostatistician and Assistant Professor of Statistics at Macalester College in St.&nbsp;Paul, Minnesota. I was born and raised in the Twin Cities and am happy to back as of Fall 2019.</p>
+<p>My name is Kelsey Grinde (pronounced <a href="https://namedrop.io/kelseygrinde">KELL-see GRIN-dee</a>) and I use the pronouns she/her/hers. I am a biostatistician and Assistant Professor of Statistics at Macalester College in St.&nbsp;Paul, Minnesota. I was born and raised in the Twin Cities and am happy to back as of Fall 2019.</p>
 <p>Before coming to Macalester, I spent five years in Seattle pursuing my PhD in <a href="https://www.biostat.washington.edu/">Biostatistics at the University of Washington</a>. Prior to that, I pursued a BA in mathematics, with a concentration in statistics, at <a href="https://wp.stolaf.edu/mscs/">St.&nbsp;Olaf College</a>. I have the wonderful faculty at St.&nbsp;Olaf to thank for inspiring my interest in statistics and teaching at a liberal arts college.</p>
-<p>I can also thank St.&nbsp;Olaf for introducing me to my spouse, Zack, where we met on the intramural soccer field. (Coincidentally, my parents also met playing soccer at St.&nbsp;Olaf.) I am a lifelong soccer player and fan, and this continues to be one of my favorite ways to spend time outside of work. In what’s left of my free time, I also enjoy trying new restaurants, breweries, and coffee shops around the Twin Cities, listening to local radio station <a href="https://www.thecurrent.org/">The Current</a>, and traveling. The picture on this page is from a February 2024 trip to Fiordland National Park in New Zealand.</p>
+<p>I can also thank St.&nbsp;Olaf for introducing me to my spouse, Zack, where we met on the intramural soccer field. (Coincidentally, my parents also met playing soccer at St.&nbsp;Olaf.) I am a lifelong soccer player and fan, and this continues to be one of my favorite ways to spend time outside of work. In what’s left of my free time, I also enjoy trying new restaurants, breweries, and coffee shops around the Twin Cities, listening to local radio station <a href="https://www.thecurrent.org/">The Current</a>, hiking, and traveling. The picture on this page is from a February 2024 trip to Fiordland National Park in New Zealand.</p>
 
 
 </main></div>
@@ -216,8 +216,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -328,7 +326,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
