@@ -12,3 +12,5 @@ CV/.DS_Store
 .quarto
 
 *.Rproj
+
+**/*.quarto_ipynb

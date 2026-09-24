@@ -29,9 +29,10 @@ Check out this dataset containing [salary ranges for statistics faculty position
 I created, and regularly update, this dataset by pulling salary ranges listed on official job postings shared via the [ASA Community Job Postings Site](https://community.amstat.org/communities/community-home?CommunityKey=a592271d-a7f0-448f-aa36-c0d008217f56), [IsoStat](https://community.amstat.org/isolatedstatisticians/home) mailing list, etc. 
 As it becomes more common (or even required) for institutions to list salary ranges on job postings, I hope to be able to expand this resource even further!
 
-## Stay Tuned...
 
-More resources coming soon!
+<!-- ## Stay Tuned... -->
+
+<!-- More resources coming soon! -->
 
 <!-- add summer research list -->
 <!-- link to Brianna's resources page -->
